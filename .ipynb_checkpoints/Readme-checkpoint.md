@@ -117,7 +117,7 @@ Accuracy on test data: 0.58
 </td>
 </tr>
 </table>
-![](https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Decision%20Tree%20Plot.png)
+![alt text](https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Decision%20Tree%20Plot.png)
 
 2. **Tuned Decision Tre3:** 
 Accuracy on train data: 0.66
