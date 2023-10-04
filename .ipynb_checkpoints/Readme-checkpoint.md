@@ -105,7 +105,7 @@ For the assessment of our models, we will primarily utilize the **accuracy** met
 
 ## Results:  
 1. **Decision Tree (Baseline Model):**
-Accuracy on train data: 0.99
+Accuracy on train data: 0.99  
 Accuracy on test data: 0.58
 <table>
 <tr>
@@ -120,7 +120,7 @@ Accuracy on test data: 0.58
 <img src="https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Decision%20Tree%20Plot.png">
 
 2. **Tuned Decision Tre3:** 
-Accuracy on train data: 0.66
+Accuracy on train data: 0.66  
 Accuracy on test data: 0.64
 <table>
 <tr>
