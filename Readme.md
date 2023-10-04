@@ -113,13 +113,13 @@ Accuracy on test data: 0.58
 <img src="https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Baseline%20model.png" alt="Alt Text 1" width="100%"/>
 </td>
 <td>
-<img src="https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Baseline%20model%20confusion%20matrix.png" alt="Alt Text 2" width="100%"/>
+<img src="https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Decision%20tree%20(Baseline%20model)%20confusion%20matrix.png" alt="Alt Text 2" width="100%"/>
 </td>
 </tr>
 </table>
 <img src="https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Decision%20Tree%20Plot.png">
 
-2. **Tuned Decision Tre3:**  
+2. **Tuned Decision Tree:**  
 Accuracy on train data: 0.66  
 Accuracy on test data: 0.64
 <table>
@@ -134,7 +134,7 @@ Accuracy on test data: 0.64
 </table>   
 <img src="https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Tuned%20Decision%20Tree%20Plot.png">
 
-3. **Logistic Regressio4:**  
+3. **Logistic Regression:**  
 Accuracy on train data: 0.59  
 Accuracy on test data: 0.59
 <table>
@@ -148,7 +148,7 @@ Accuracy on test data: 0.59
 </tr>
 </table>   
 
-4. **Tuned Logistic Regres5ion:** 
+4. **Tuned Logistic Regression:** 
 Accuracy on train data: 0.59  
 Accuracy on test data: 0.59
 <table>
@@ -162,7 +162,21 @@ Accuracy on test data: 0.59
 </tr>
 </table>   
 
-6. **Feature Importance Evalua6ion:**
-   
+5. **Feature Importance Evaluation:**  
+I picked the 10 features with the highest feature importance from the tuned decision tree model and reran the model with only these features to save processing power and time. below are the features:
+**Age, Breed1, PhotoAmt, Quantity, Breed2, Sterilized, Gender, Fee, Furlength, and Color1**'C6lor1']
 
-8. **Refined Model with Selected Features:** 
+8. **Refined Model with Selected Features:**  
+Accuracy on train data: 0.66  
+Accuracy on test data: 0.63
+<table>
+<tr>
+<td>
+<img src="https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Refined%20Decision%20Tree.png" alt="Alt Text 1" width="100%"/>
+</td>
+<td>
+<img src="https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Refined%20Decision%20Tree%20Confision%20Matrix.png" alt="Alt Text 2" width="100%"/>
+</td>
+</tr>
+</table>   
+<img src="https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Refined%20Decision%20Tree%20Plot.png">
