@@ -163,8 +163,8 @@ Accuracy on test data: 0.59
 </table>   
 
 5. **Feature Importance Evaluation:**  
-I picked the 10 features with the highest feature importance from the tuned decision tree model and reran the model with only these features to save processing power and time. below are the features:
-**Age, Breed1, PhotoAmt, Quantity, Breed2, Sterilized, Gender, Fee, Furlength, and Color1**'C6lor1']
+I picked the 10 features with the highest feature importance from the tuned decision tree model and reran the model with only these features to save processing power and time. below are the features:  
+**Age, Breed1, PhotoAmt, Quantity, Breed2, Sterilized, Gender, Fee, Furlength, and Color1**  
 
 8. **Refined Model with Selected Features:**  
 Accuracy on train data: 0.66  
