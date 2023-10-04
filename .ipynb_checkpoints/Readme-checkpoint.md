@@ -132,7 +132,7 @@ Accuracy on test data: 0.64
 </td>
 </tr>
 </table>   
-<img src="https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Tuned%20Decision%20Tree%20Model.png">
+<img src="https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Tuned%20Decision%20Tree%20Plot.png">
 
 4. **Logistic Regressio4:** 
    
