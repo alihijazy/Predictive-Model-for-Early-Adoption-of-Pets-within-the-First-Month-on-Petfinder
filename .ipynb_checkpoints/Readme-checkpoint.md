@@ -109,10 +109,10 @@ For the assessment of our models, we will primarily utilize the **accuracy** met
 <table>
 <tr>
 <td>
-<img src="https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Baseline%20model.png" alt="Alt Text 1" width="50%"/>
+<img src="https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Baseline%20model.png" alt="Alt Text 1" width="100%"/>
 </td>
 <td>
-<img src="https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Baseline%20model%20confusion%20matrix.png" alt="Alt Text 2" width="50%"/>
+<img src="https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Baseline%20model%20confusion%20matrix.png" alt="Alt Text 2" width="100%"/>
 </td>
 </tr>
 </table>
