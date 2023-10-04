@@ -105,7 +105,8 @@ For the assessment of our models, we will primarily utilize the **accuracy** met
 
 ## Results:  
 1. **Decision Tree (Baseline Model):**
-
+Accuracy on train data: 0.99
+Accuracy on test data: 0.58
 <table>
 <tr>
 <td>
@@ -116,9 +117,22 @@ For the assessment of our models, we will primarily utilize the **accuracy** met
 </td>
 </tr>
 </table>
-   
+![](https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Decision%20Tree%20Plot.png)
+
 2. **Tuned Decision Tre3:** 
-   
+Accuracy on train data: 0.66
+Accuracy on test data: 0.64
+<table>
+<tr>
+<td>
+<img src="https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Tuned%20Baseline%20Model.png" alt="Alt Text 1" width="100%"/>
+</td>
+<td>
+<img src="https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Tuned%20Baseline%20Model%20confusion%20matrix.png" alt="Alt Text 2" width="100%"/>
+</td>
+</tr>
+</table>   
+![](https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Tuned%20Decision%20Tree%20Plot.png)
 4. **Logistic Regressio4:** 
    
 5. **Tuned Logistic Regres5ion:** 
