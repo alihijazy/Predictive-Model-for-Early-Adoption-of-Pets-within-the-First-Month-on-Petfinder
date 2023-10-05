@@ -93,9 +93,9 @@ For this project, given the binary nature of the target variable, I primarily fo
    
 4. **Tuned Logistic Regression:** To further optimize our results, the Logistic Regression model underwent hyperparameter tuning, ensuring peak accuracy in predictions.
 
-5. **Feature Importance Evaluation:** After tuning both models, I evaluated the feature importance for each. By identifying and cross-referencing the significant features from both models, I extracted the common influential features.
+5. **Feature Importance Evaluation:** I picked the best model of the 4, which is the tuned Decision tree, and checked the feature importance.
 
-6. **Refined Model with Selected Features:** Leveraging these common important features, I trained a more streamlined model. The objective was to maintain, if not improve, the accuracy of predictions while utilizing fewer columns. This approach not only boosts model efficiency but also reduces processing time and computational powerequirements.
+6. **Refined Model with Selected Features:** I piched the top 10 features from the tuned Decision tree model and trained a refined model with only these 10 features. the results were very similar to those of the tuned model, using only 10 columns instead of 24. This might not make a big difference on the processing time for this model, but for a bigger data it will save a lot of processing power and time.
 
 
 ### Evaluation Metric:
@@ -106,7 +106,7 @@ For the assessment of our models, we will primarily utilize the **accuracy** met
 ## Results:  
 1. **Decision Tree (Baseline Model):**  
 Accuracy on train data: 0.99  
-Accuracy on test data: 0.58
+Accuracy on test data: 0.59
 <table>
 <tr>
 <td>
@@ -120,8 +120,8 @@ Accuracy on test data: 0.58
 <img src="https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Decision%20Tree%20Plot.png">
 
 2. **Tuned Decision Tree:**  
-Accuracy on train data: 0.66  
-Accuracy on test data: 0.64
+Accuracy on train data: 0.65  
+Accuracy on test data: 0.63
 <table>
 <tr>
 <td>
@@ -136,7 +136,7 @@ Accuracy on test data: 0.64
 
 3. **Logistic Regression:**  
 Accuracy on train data: 0.59  
-Accuracy on test data: 0.59
+Accuracy on test data: 0.58
 <table>
 <tr>
 <td>
@@ -167,7 +167,7 @@ I picked the 10 features with the highest feature importance from the tuned deci
 **Age, Breed1, PhotoAmt, Quantity, Breed2, Sterilized, Gender, Fee, Furlength, and Color1**  
 
 8. **Refined Model with Selected Features:**  
-Accuracy on train data: 0.66  
+Accuracy on train data: 0.63  
 Accuracy on test data: 0.63
 <table>
 <tr>
@@ -179,4 +179,16 @@ Accuracy on test data: 0.63
 </td>
 </tr>
 </table>   
-<img src="https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Refined%20Decision%20Tree%20Plot.png">
+<img src="https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Refined%20Decision%20Tree%20Plot.png">  
+
+## Results:  
+The best performing model is the tuned decision tree model, however the refined decision tree model has very similar results with much less data to process. so I will go with the refined decision tree model.  
+
+## Repository Structure
+```none            
+├── data 
+├── Pictures                   
+├── .gitignore
+├── Readme.md 
+├── Pet adoption predictive model.ipynb.ipynb
+└── pres-pet-adoption-speed.pdf
