@@ -148,7 +148,7 @@ Accuracy on test data: 0.58
 </tr>
 </table>   
 
-4. **Tuned Logistic Regression:** 
+4. **Tuned Logistic Regression:**  
 Accuracy on train data: 0.59  
 Accuracy on test data: 0.59
 <table>
@@ -181,7 +181,7 @@ Accuracy on test data: 0.63
 </table>   
 <img src="https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Refined%20Decision%20Tree%20Plot.png">  
 
-## Results:  
+## Conclusion:  
 The best performing model is the tuned decision tree model, however the refined decision tree model has very similar results with much less data to process. so I will go with the refined decision tree model.  
 
 ## Repository Structure
