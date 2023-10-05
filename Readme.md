@@ -179,4 +179,13 @@ Accuracy on test data: 0.63
 </td>
 </tr>
 </table>   
-<img src="https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Refined%20Decision%20Tree%20Plot.png">
+<img src="https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Refined%20Decision%20Tree%20Plot.png">  
+
+## Repository Structure
+```none            
+├── data 
+├── Pictures                   
+├── .gitignore
+├── Readme.md 
+├── Pet adoption predictive model.ipynb.ipynb
+└── pres-pet-adoption-speed.pdf
