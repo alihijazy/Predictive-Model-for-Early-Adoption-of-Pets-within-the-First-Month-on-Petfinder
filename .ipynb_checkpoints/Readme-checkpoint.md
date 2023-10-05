@@ -95,7 +95,7 @@ For this project, given the binary nature of the target variable, I primarily fo
 
 5. **Feature Importance Evaluation:** I picked the best model of the 4, which is the tuned Decision tree, and checked the feature importance.
 
-6. **Refined Model with Selected Features:** I piched the top 10 features from the tuned Decision tree model and trained a refined model with only these 10 features. the results were very similar to those of the tuned model, using only 10 columns instead of 24. This might not make a big difference on the processing time for this model, but for a bigger data it will save a lot of processing power and time.
+6. **Refined Model with Selected Features:** I picked the top 10 features from the tuned Decision tree model and trained a refined model with only these 10 features. the results were very similar to those of the tuned model, using only 10 columns instead of 24. This might not make a big difference on the processing time for this model, but for a bigger data it will save a lot of processing power and time.
 
 
 ### Evaluation Metric:
@@ -182,7 +182,7 @@ Accuracy on test data: 0.63
 <img src="https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Refined%20Decision%20Tree%20Plot.png">  
 
 ## Conclusion:  
-The best performing model is the tuned decision tree model, however the refined decision tree model has very similar results with much less data to process. so I will go with the refined decision tree model.  
+Our best performing model is the refined decision tree model. It scores 63% accuracy and uses only 10 features unlike any other model we tried. so it will require less processing with a bigger dataset.
 
 ## Repository Structure
 ```none            
