@@ -181,8 +181,18 @@ Accuracy on test data: 0.63
 </table>   
 <img src="https://github.com/alihijazy/Predictive-Model-for-Early-Adoption-of-Pets-within-the-First-Month-on-Petfinder/blob/master/Pictures/Refined%20Decision%20Tree%20Plot.png">  
 
-## Conclusion:  
-Our best performing model is the refined decision tree model. It scores 63% accuracy and uses only 10 features unlike any other model we tried. so it will require less processing with a bigger dataset.
+## Conclusion  
+**Our best performing model is the refined decision tree model. It scores 63% accuracy and uses only 10 features unlike any other model we tried. so it will require less processing with a bigger dataset.**  
+
+### Recommendations  
+- Put this model in use to help know in advance the pets that won’t be adopted soon. Knowing in advance will help plan for their shelters food etc.  
+
+- Give more exposure to the profiles of pets will lower chances of being adopted within a month.  
+
+- Try to adjust the profiles of pets with less chances to make them more desirable (adding more and better pictures, videos)
+
+### Next steps  
+include image processing since the picture of the pet can be a main factor of getting them adopted
 
 ## Repository Structure
 ```none            
